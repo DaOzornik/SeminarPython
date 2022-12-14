@@ -9,9 +9,9 @@
 
 num = int(input('Введите число от 1 до 7: '))
 if num >=1 and num <=5:
-    print('working day')    
+    print('нет')    
 elif num==6 or num==7:
-    print('day off')    
+    print('да')    
 else:
-    print('enter correct number')    
+    print('введите корректное число')    
 

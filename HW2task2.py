@@ -5,9 +5,14 @@
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
 num = int(input('Введите число N: '))
-factoial =1
-while num>1:
-    factoial*=num
-    num-=1
-    print(factoial)
+factorial =1
 
+# while num>1:
+#     factoial*=num
+#     num-=1
+#     print(factoial)
+
+for i in range(2, num+1):
+    factorial *= i
+ 
+print(factorial)

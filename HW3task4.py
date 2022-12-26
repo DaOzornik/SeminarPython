@@ -16,7 +16,7 @@ while num > 0:
     numberb = str(num % 2) + numberb
     num = num // 2
  
-print(numberb)
+print(f'ваше число в двоичной системе исчисления = ', numberb)
 
 
 exit()
